@@ -1,0 +1,62 @@
+/*this makes h1 red*/
+@media screen, print {
+    
+    h1{
+        color: red;
+        text-decoration: underline;
+        text-align: center;
+        width: 15cm;
+        height: 100px;
+    
+    }
+}
+
+:root{
+    --blue: #6495ed;
+}
+.nav {
+    color: rgb(150,0,150);
+}
+.nav.header{
+    color: var(--blue);
+}
+header {background-color: grey;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#date{ 
+    background-color: yellow;
+}
+.box{
+    border: 5px solid;
+    padding: 2mm;
+    margin: 1em 0;
+    border-radius:10000000pt ;
+}
+
+.box.one{
+    width: 50vw;
+}
+
+.box.two{
+    width: 50vh;
+}
+.list.one{
+    display: none;
+    display: grid;
+}
+.list.two{
+    display: flex;
+}
+
+footer{
+    position: relative;
+}
+.list.one:hover{
+    color:blue
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
